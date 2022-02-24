@@ -79,6 +79,12 @@ public class FrmCliente extends javax.swing.JFrame {
 
         jLabel4.setText("Dirección");
 
+        txtDireccion.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtDireccionActionPerformed(evt);
+            }
+        });
+
         jLabel5.setText("Email");
 
         jLabel6.setText("Fecha Credito");
@@ -251,6 +257,10 @@ public class FrmCliente extends javax.swing.JFrame {
     private void txtValorCreditoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtValorCreditoActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtValorCreditoActionPerformed
+
+    private void txtDireccionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtDireccionActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtDireccionActionPerformed
 
     /**
      * @param args the command line arguments
