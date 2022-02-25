@@ -18,6 +18,7 @@ import javax.swing.JOptionPane;
 public class ControladorMDB implements ActionListener{
   private FrmVista _view; //el formulario 
   private MDB _model;//el manejador de bases de datos
+  
 
     
     public ControladorMDB(FrmVista view, MDB model){

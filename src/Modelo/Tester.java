@@ -10,6 +10,7 @@ public class Tester {
 	 */
 	public static void main(String[] args) {
 		int i,j;
+                String a;
 		MDB administradorBD =  new MDB();
 		List<ArrayList<String>> datosObtenidos= new ArrayList<ArrayList<String>>();
 		ArrayList<String> renglonObtenido = new ArrayList<String>();
